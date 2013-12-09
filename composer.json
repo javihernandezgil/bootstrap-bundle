@@ -1,0 +1,27 @@
+{
+    "name":        "javihernandezgil/bootstrap-bundle",
+    "type":        "symfony-bundle",
+    "description": "JhgBootstrapBundle helps Bootstrap integration in Symfony2 projects.",
+    "keywords":    ["symfony", "bundle", "bootstrap"],
+    "license":     "MIT License",
+
+    "authors": [
+        {
+            "name": "Javi Hernández Gil",
+            "homepage": "http://github.com/javihernandezgil"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0.0"
+    },
+
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-0": {
+            "Jhg\\BootstrapBundle": ""
+        }
+    },
+}
