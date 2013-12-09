@@ -6,13 +6,15 @@ JhgBootstrapBundle helps <a href="http://getbootstrap.com/">Bootstrap</a> integr
 Instalation
 ===========
 ```json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/javihernandezgil/bootstrap-bundle.git"
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/javihernandezgil/bootstrap-bundle.git"
+        }
+    ],
+    "require": {
+        "javihernandezgil/bootstrap-bundle": "dev-master"
     }
-],
-"require": {
-    "javihernandezgil/bootstrap-bundle": "dev-master"
-},
+}
 ```
