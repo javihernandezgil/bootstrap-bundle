@@ -7,15 +7,12 @@ Instalation
 ===========
 ```json
 "repositories": [
-    ....
     {
         "type": "vcs",
         "url": "https://github.com/javihernandezgil/bootstrap-bundle.git"
     }
 ],
-....
 "require": {
-    ....
     "javihernandezgil/bootstrap-bundle": "dev-master"
 },
 ```
