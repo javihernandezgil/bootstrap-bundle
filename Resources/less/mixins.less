@@ -699,11 +699,11 @@
 
 .make-grid-columns() {
   // Common styles for all sizes of grid columns, widths 1-12
-  .col(@index) when (@index = 1) { // initial
+  .col(@index,@list) when (@index = 1) { // initial
     @item: ~".col-xs-@{index}, .col-sm-@{index}, .col-md-@{index}, .col-lg-@{index}";
     .col(@index + 1, @item);
   }
-  .col(@index, @list) when (@index =< @grid-columns) { // general; "=<" isn't a typo
+  .col(@index, @list) when (@index =< @grid-columns) and not (@list=true) { // general; "=<" isn't a typo
     @item: ~".col-xs-@{index}, .col-sm-@{index}, .col-md-@{index}, .col-lg-@{index}";
     .col(@index + 1, ~"@{list}, @{item}");
   }
@@ -717,15 +717,15 @@
       padding-right: (@grid-gutter-width / 2);
     }
   }
-  .col(1); // kickstart it
+  .col(1,true); // kickstart it
 }
 
 .make-grid-columns-float(@class) {
-  .col(@index) when (@index = 1) { // initial
+  .col(@index,@list) when (@index = 1) { // initial
     @item: ~".col-@{class}-@{index}";
     .col(@index + 1, @item);
   }
-  .col(@index, @list) when (@index =< @grid-columns) { // general
+  .col(@index, @list) when (@index =< @grid-columns) and not (@list=true) { // general
     @item: ~".col-@{class}-@{index}";
     .col(@index + 1, ~"@{list}, @{item}");
   }
@@ -734,7 +734,7 @@
       float: left;
     }
   }
-  .col(1); // kickstart it
+  .col(1,true); // kickstart it
 }
 
 .calc-grid(@index, @class, @type) when (@type = width) and (@index > 0) {
