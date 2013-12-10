@@ -23,5 +23,7 @@
         "psr-0": {
             "Jhg\\BootstrapBundle": ""
         }
-    }
+    },
+    
+    "target-dir": "Jhg/BootstrapBundle"
 }
