@@ -1,5 +1,5 @@
 <?php
-namespace Jhg\BoostrapBundle;
+namespace Jhg\BootstrapBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
