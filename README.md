@@ -18,3 +18,7 @@ Instalation
     }
 }
 ```
+
+Boostrap changes
+================
+Following the instructions given in [https://github.com/leafo/lessphp/issues/491#issuecomment-28142698](https://github.com/leafo/lessphp/issues/491#issuecomment-28142698), some changes has been added to fix the leafo/lessphp compiling error.
