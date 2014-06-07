@@ -10,11 +10,11 @@ Instalation
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/javihernandezgil/bootstrap-bundle.git"
+            "url": "https://github.com/javihgil/bootstrap-bundle.git"
         }
     ],
     "require": {
-        "javihernandezgil/bootstrap-bundle": "dev-master"
+        "javihgil/bootstrap-bundle": "dev-master"
     }
 }
 ```

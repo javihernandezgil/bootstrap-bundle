@@ -1,5 +1,5 @@
 {
-    "name":        "javihernandezgil/bootstrap-bundle",
+    "name":        "javihgil/bootstrap-bundle",
     "type":        "symfony-bundle",
     "description": "JhgBootstrapBundle helps Bootstrap integration in Symfony2 projects.",
     "keywords":    ["symfony", "bundle", "bootstrap"],
@@ -7,8 +7,8 @@
 
     "authors": [
         {
-            "name": "Javi Hernández Gil",
-            "homepage": "http://github.com/javihernandezgil"
+            "name": "Javi H. Gil",
+            "homepage": "http://github.com/javihgil"
         }
     ],
 
